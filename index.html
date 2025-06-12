@@ -1,21 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Naveen Gudala | Developer Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <div class="login-container">
-        <h2>Login</h2>
-        <form action="/login" method="POST">
-            <input type="text" id="username" name="username" placeholder="Username" required>
-            <br>
-            <input type="password" id="password" name="password" placeholder="Password" required>
-            <br>
-            <button type="submit">Login</button>
-        </form>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Hero Section -->
+  <section class="min-h-screen flex flex-col justify-center items-center text-center px-4">
+    <h1 class="text-5xl font-bold mb-4">Hi, I'm Naveen Gudala</h1>
+    <p class="text-xl mb-6">Java | Spring Boot | Angular Developer</p>
+    <p class="text-lg max-w-xl">I’m a full-stack developer with 2+ years of experience in building scalable enterprise applications. I specialize in Java, Angular, and Spring Boot.</p>
+    <a href="#projects" class="mt-6 px-6 py-2 bg-indigo-600 hover:bg-indigo-700 rounded">View My Projects</a>
+  </section>
+
+  <!-- About Me -->
+  <section id="about" class="max-w-4xl mx-auto px-4 py-16">
+    <h2 class="text-3xl font-bold mb-4">About Me</h2>
+    <p>
+      I'm a passionate software developer focused on delivering robust backend systems and responsive front-end experiences.
+      I enjoy solving real-world problems and have contributed to projects like IT support systems, ticketing bots, and retail management tools.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="bg-gray-800 px-4 py-16">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-8">Projects</h2>
+
+      <!-- Project 1 -->
+      <div class="bg-gray-700 p-6 rounded shadow-md mb-6">
+        <h3 class="text-xl font-semibold mb-2">🎫 Ticket Bot</h3>
+        <p class="mb-4">An automated bot system to generate and track support tickets via chat interface. Integrated with backend APIs using Spring Boot and frontend in Angular.</p>
+        <p><strong>Tech Stack:</strong> Java, Spring Boot, Angular</p>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="bg-gray-700 p-6 rounded shadow-md mb-6">
+        <h3 class="text-xl font-semibold mb-2">🛠️ IT Support System</h3>
+        <p class="mb-4">A web-based IT helpdesk tool for managing user queries, tracking issues, and assigning tasks to support staff.</p>
+        <p><strong>Tech Stack:</strong> Angular, Spring Boot, MySQL</p>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="bg-gray-700 p-6 rounded shadow-md mb-6">
+        <h3 class="text-xl font-semibold mb-2">🛒 Retailer Management System</h3>
+        <p class="mb-4">Designed and developed a system to manage retailers, product inventory, and orders efficiently across multiple stores.</p>
+        <p><strong>Tech Stack:</strong> Java, Spring Boot, Angular</p>
+      </div>
     </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="max-w-4xl mx-auto px-4 py-16">
+    <h2 class="text-3xl font-bold mb-4">Skills</h2>
+    <ul class="grid grid-cols-2 md:grid-cols-3 gap-4 list-disc list-inside">
+      <li>Java</li>
+      <li>Spring Boot</li>
+      <li>Angular</li>
+      <li>REST APIs</li>
+      <li>MySQL</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-gray-800 px-4 py-16">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-4">Contact Me</h2>
+      <p>Email: <a href="mailto:naveenvenkat532@gmail.com" class="text-indigo-400 hover:underline">naveenvenkat532@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/naveenvenkat99" target="_blank" class="text-indigo-400 hover:underline">github.com/naveenvenkat99</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/naveen-venkat-gudala-8883a61b9/" target="_blank" class="text-indigo-400 hover:underline">linkedin.com/in/naveen-venkat-gudala</a></p>
+    </div>
+  </section><a href="Naveen_Gudala_Resume.pdf" download class="inline-block mt-4 px-6 py-2 bg-green-600 hover:bg-green-700 rounded text-white font-semibold">
+  📄 Download Resume
+</a>
+
+
+  <!-- Footer -->
+  <footer class="text-center py-4 text-sm bg-gray-900">
+    &copy; 2025 Naveen Gudala. All rights reserved.
+  </footer>
+
 </body>
 </html>
